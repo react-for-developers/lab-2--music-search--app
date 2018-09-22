@@ -1,0 +1,13 @@
+.SearchBar__input {
+  padding: 0.5rem 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.SearchBar__submit-button {
+  border-radius: 2px;
+  min-height: 100%;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+}

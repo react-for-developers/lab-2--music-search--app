@@ -9,11 +9,11 @@ export default class TrackSummary extends Component {
 
     return (
       <div className={`row ${className}`}>
-        <div className="col-2">
+        <div className="col-1">
           <h4>{track.trackNumber}</h4>
         </div>
 
-        <div className="col-10">
+        <div className="col-11">
           <h3>{track.name}</h3>
           <p>
             <em>

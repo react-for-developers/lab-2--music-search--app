@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Layout from "../Layout";
 import Home from "../../pages/Home";
+import Search from "../../pages/Search";
 import Artist from "../../pages/Artist";
 import Album from "../../pages/Album";
 
@@ -12,7 +13,7 @@ class App extends Component {
       <div className="App">
         <Layout>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Search} />
             <Route exact path="/artists/:artistId" component={Artist} />
             <Route exact path="/albums/:albumId" component={Album} />
           </Switch>
