@@ -7,7 +7,7 @@ export default class ArtistSummary extends Component {
     return (
       <div className={`row ${className}`}>
         <div className="col-4">
-          <img className="img-fluid" src={artist.imageUrl} />
+          <img className="img-fluid" src={artist.imageUrl} alt="Artist" />
         </div>
 
         <div className="col-8">

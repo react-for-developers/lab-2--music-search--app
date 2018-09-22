@@ -7,7 +7,7 @@ export default class AlbumSummary extends Component {
     return (
       <div className={`row ${className}`}>
         <div className="col-3">
-          <img className="img-fluid" src={album.imageUrl} />
+          <img className="img-fluid" src={album.imageUrl} alt="Album Cover" />
         </div>
 
         <div className="col-9">

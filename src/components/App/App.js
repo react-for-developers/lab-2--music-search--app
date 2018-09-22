@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Layout from "../Layout";
-import Home from "../../pages/Home";
+// import Home from "../../pages/Home";
 import Search from "../../pages/Search";
 import Artist from "../../pages/Artist";
 import Album from "../../pages/Album";
+import Playlist from "../../pages/Playlist";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path="/" component={Search} />
             <Route exact path="/artists/:artistId" component={Artist} />
             <Route exact path="/albums/:albumId" component={Album} />
+            <Route exact path="/playlists/:playlistId" component={Playlist} />
           </Switch>
         </Layout>
       </div>
